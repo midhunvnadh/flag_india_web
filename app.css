@@ -1,3 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  font-family: "Bebas Neue", cursive;
+}
+
 body {
   background-image: url(assets/camo.jpeg);
+}
+.holder {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.holder .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.holder .content h1 {
+  font-size: 9em;
+  margin: 0;
+  color: #27ace3;
+  filter: drop-shadow(7px 7px 26px black);
+  letter-spacing: 9px;
+}
+.holder .content .button {
+  font-size: 2em;
+  margin: 0;
+  color: #000;
+  filter: drop-shadow(7px 7px 26px black);
+  cursor: pointer;
+  background: #27ace3;
+  width: auto;
+  border: 0;
+  padding: 10px 14px;
+  border-radius: 9px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 1em;
+}
+.holder .content .button:hover {
+  opacity: 0.9;
 }
